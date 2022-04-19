@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+}
+
+#header{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    top: 0px;
+    color: rgb(0, 5, 8);
+    box-shadow: 0em 0.2em 1.2em rgb(34, 20, 20);
+    
+    
+
+}
+#logo-text{
+    font-size: 20px;
+    padding-top: 0.8em;
+}
+#image-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+#header img, div, nav{
+    margin: 0.8em;
+    display: block;
+    background-color: none;
+    text-align: center;
+    
+}
+#vid-section{
+    /* margin: 150px auto; */
+    margin-top: 100px;
+    background-image: url(files/william-f-santos-PU3eZhA76s8-unsplash.jpg);
+    
+    background-size: cover;
+   
+    
+   
+    
+}
+#text{
+    font-size: 3.3em;
+    font-weight: light;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+
+}
+#updates{
+    font-size: 2em;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    
+
+
+}
+iframe{
+    margin: 0em auto ;
+    padding: 1.2em;
+    
+    
+}
+#navigation a{
+    text-decoration: none;
+    color: black;
+}
+
+#main-body{
+    margin-top: 0px;
+    
+  
+
+}
+#main-nody section{
+    text-align: center;
+    margin: 0.5rem auto;
+}
+#product-reel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: url(files/bady-abbas-hxi_yRxODNc-unsplash.jpg);
+    background-size: cover;
+    
+}
+#feature-list{
+    margin: 6rem 6rem;
+    
+    
+}
+#features{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin: 1em 10em;
+    padding: 0.3em 3em;
+    box-shadow: 0.3em 0.3em 0.5em rgb(74, 116, 116);
+    color: rgb(0, 49, 49);
+    border-radius: 0.3em;
+   
+    
+}
+#form-section{
+    margin: 0em 0em;
+  
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+
+
+}
+input[type='submit'], [type='email']{
+    display: block;
+    text-align: center;
+    margin: 2em auto;
+
+   
+    
+    
+}
+
+#submit{
+    background-image: linear-gradient(45deg, red, blue)
+    ;
+    padding: 1em 2em;
+    color: aliceblue;
+    font-weight: lighter;
+    border: none;
+    border-radius: 0.2em;
+    font-size: 1.2em;
+    
+
+   
+   
+}
+#email{
+    padding: 0.7em 3em;
+    font-size: large;
+    text-align: left;
+
+}
+
+i{
+    color: dodgerblue;
+    background-color: none;
+}
+#feature-txt{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 1em;
+    background-color: none;
+    display: block;
+}
+#feature-txt span{
+    font-weight: lighter;
+    font-size: medium;
+    text-align: left;
+    padding-left: 0px;
+    display: block;
+}
+#products img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+}
+#products{
+    width: 20rem;
+    height: auto;
+    background-color: rgb(168, 213, 255);
+    border-radius: 0.3rem;
+    box-shadow: 0.3em 0.3em 1em rgb(13, 24, 24);
+    margin: 3em 0em;
+}
+#product_txt{
+    font-weight: bold;
+    font-size: 3em;
+    margin: 0px 0px;
+    background-image: linear-gradient(135deg,red, blue);
+    color: aliceblue;
+
+    
+    
+    
+}
+#product_txt div{
+    font-weight: lighter;
+    font-size: 0.5em;
+    padding: 3em 0em;
+}
+#select{
+    font-size: larger;
+    background-color: rgb(0, 31, 88);
+    color: rgb(255, 251, 0);
+    font-weight: lighter;
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: 0.2em;
+    margin: 1em 0.3em;
+    box-shadow: 0.2em 0.2em 0.3em rgb(49, 82, 82);
+   
+}
+#select, #submit:hover{
+    cursor: pointer;
+}
+#select span{
+    font-size: 2em;
+    color: rgb(251, 255, 0);
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(238, 28, 28);
+    display: inline;
+    margin: 0.3em 1em;
+    
+
+}
+footer{
+    margin-top: 0em;
+    background-color: darkslategrey;
+    padding: 1em ;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    text-align: left;
+    
+}
+footer a{
+    text-decoration: none;
+    color: aliceblue
+    ;
+    font-weight: bold;
+    
+
+
+}
+footer ul{
+    background-color: none;
+    padding-left:0em;
+    margin: 0.5em 0em;
+}
+footer span{
+   
+    margin-left: 1em;
+}
+@media only screen and (max-width: 600px){
+    #product-reel{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #header{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+    ul{
+        
+        
+        padding: 0px;
+
+        
+    }
+    #image-div{
+        display: block;
+        
+        margin-left: 25%;
+    }
+    #navigation{
+        display: block;
+        
+       
+       
+    }
+    #navigation ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    iframe{
+        width: 100%;
+    }
+    #text{
+        font-size: 2em;
+        padding-top: 2.3em;
+    }
+    #features{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+        margin: 1em 0em;
+        padding: 0.3em 0.2em;
+        box-shadow: 0.3em 0.3em 0.5em rgb(74, 116, 116);
+        color: rgb(0, 49, 49);
+        border-radius: 1em;
+    }
+    #image-div{
+        display: block;
+        width: 100%;
+    }
+    
+    #feature-list{
+        margin: 6rem 2rem;
+        
+        
+    }
+    #main-body{
+        margin-top: 180px;
+    }
+}
